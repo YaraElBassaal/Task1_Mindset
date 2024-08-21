@@ -1,59 +1,65 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task1</title>
-    <style>
-        #contact div {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Website Title</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>Welcome to our Website! This is the home section.</p>
-        </section>
-
-        <section id="about">
-            <h2>About</h2>
-            <p>Learn more about us in this section.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <form>
-                <div>
-                    <label for="username">Username:</label>
-                    <input id="username" type="text" name="username" placeholder="Yara">
-                </div>
-
-                <div>
-                    <label for="email">Email Address:</label>
-                    <input id="email" type="email" name="email" placeholder="Yara@gmail.com">
-                </div>
-
-                <div>
-                    <label for="password">Password:</label>
-                    <input id="password" type="password" name="password" placeholder="Enter your Password">
-                </div>
-
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>2024 Simple Website. All rights reserved.</p>
-    </footer>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task1</title>
+        <style>
+            #contact div {
+                margin-bottom: 20px;
+            }
+            
+            li{
+                list-style-type: none;
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Website Title</h1>
+            <nav>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="home">
+                <h2>Home</h2>
+                <p>Welcome to our Website! This is the home section.</p>
+            </section>
+    
+            <section id="about">
+                <h2>About</h2>
+                <p>Learn more about us in this section.</p>
+            </section>
+    
+            <section id="contact">
+                <h2>Contact</h2>
+                <form>
+                    <div>
+                        <label for="username">Username:</label>
+                        <input id="username" type="text" name="username" placeholder="Yara">
+                    </div>
+    
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input id="email" type="email" name="email" placeholder="Yara@gmail.com">
+                    </div>
+    
+                    <div>
+                        <label for="password">Password:</label>
+                        <input id="password" type="password" name="password" placeholder="Enter your Password">
+                    </div>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>2024 Simple Website. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
